@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Code Live</title>
+		
+		<meta charset="utf-8"/>
+		<meta name="author" content="Isabela Carrara">
+		<meta name="description" content="CodeLive é um editor de Html, CSS e JavaScript online.">
+		<meta name="keywords" content="CodeLive, code, online, editor, Html, css, javascript">
+		
+		<link type="text/css" href="style.css" rel="stylesheet">
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<div id="container">
+			<div id="cabecalho">
+				<h2 id="titulo">CodeLive</h2>
+				<button id="botaoHtml" class="botao">HTML</button>
+				<button id="botaoCss" class="botao">CSS</button>
+				<button id="botaoJavaScript" class="botao">JavaScript</button>
+				<button id="botaoResultado" class="botao">Resultado</button>
+			</div>
+			<div>
+				<table id="containerText">
+					<tr id="headerContainer">
+						<th id="headerHtml">HTML</th>
+						<th id="headerCss">CSS</th>
+						<th id="headerJs">JavaScript</th>
+						<th id="headerResultado">Resultado</th>
+					</tr>
+					<tr>
+						<td id="tdHtml" class="boxFirefox" header="headerHtml"><textarea id="textHtml"></textarea></td>
+						<td id="tdCss" class="boxFirefox" header="headerCss"><textarea id="textCss"></textarea></td>
+						<td id="tdJavaScript" class="boxFirefox" header="headerJs"><textarea id="textJavaScript"></textarea></td>
+						<td id="tdResultado" class="boxFirefox" header="headerResultado"></iframe></td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+	<script type="text/javascript" src="script.js"></script>
+	
+	</body>
+
+</html>
