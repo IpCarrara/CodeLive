@@ -1,0 +1,125 @@
+/* Code Live */
+
+body{
+	margin:0px;
+	padding:0px;
+	background-image: url("imagens/background.jpg");
+	
+}
+
+iframe {
+	margin-top:1px;
+	padding:10px;
+	border: none;
+	height:99%;
+    width: 100%;
+	overflow: scroll;
+	background:rgba(255, 255, 255, 0.3);
+    -webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+    
+	vertical-align: middle;
+}
+
+#container {
+	margin: 0 auto;
+	width:1240px;
+	padding:0px;
+}
+
+#cabecalho {
+	height:60px;
+	width:1235px;
+	background-color:#000666;
+	margin-left:3px;
+	margin-bottom:4px;
+}
+
+#titulo {
+	color:white;
+	margin:0px 210px 0px 20px;
+	padding:5px;
+	font-size:40px;
+	float:left;
+}
+
+.botao {
+	font-size:25px;
+	border-radius:5px;
+	border-style:none;
+	float:left;
+	margin-top:13px;
+	margin-right:7px;
+	color:white;
+	background-color:#000aa3;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+	outline:none;
+	
+}
+
+.botao:hover {
+  box-shadow: 0 8px 9px 0 rgba(255,255,255,0.24),0 17px 50px 0 rgba(255,255,255,0.19);
+}
+
+.botao:active {
+  background-color: #000ed6;
+  transform: translateY(4px);
+}
+
+#containerText {
+	width:1240px;
+	height:510px;
+	
+}
+
+textarea {
+	margin-top:6px;
+	padding:10px;
+	border: none;
+	height:100%;
+    width: 100%;
+	overflow: auto;
+    -webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+    -moz-box-sizing: border-box; /* FF1+ */
+    box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+	
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+	
+	
+}
+
+#textHtml {
+	background: rgba(255, 255, 255, 0.2); /* Usei rgba para dar opacidade só no background */
+	
+}
+#textCss {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#textJavaScript {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+textarea::-webkit-scrollbar {
+ display: none;					/* Eesconder scrollbar */
+}
+
+#headerContainer {
+	color:white;
+	font-weight:bold;
+	height:15px;
+	background: rgba(255, 255, 255, 0.2);
+	margin-bottom:none;
+	
+}
+
+.boxFirefox { 
+	height:480px;
+	-webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+    -moz-box-sizing: border-box; /* FF1+ */
+    box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+}
+
+
+
