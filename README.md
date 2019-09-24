@@ -1,4 +1,4 @@
 # CodeLive
-CodeLive is an online Html, CSS and JavaScript editor.
+CodeLive é um editor de Html, CSS e JavaScript online. 
 
 http://testewebdev.epizy.com/CodeLive/CodeLive.html
